@@ -11,9 +11,9 @@
 
 class CircleImg: public QWidget
 {
-    QPixmap *redC = new QPixmap("C:\\Users\\LDm\\CLionProjects\\L36P1-QtWidget\\redCircle.png");
-    QPixmap *greenC = new QPixmap("C:\\Users\\LDm\\CLionProjects\\L36P1-QtWidget\\greenCircle.png");
-    QPixmap *yellowC = new QPixmap("C:\\Users\\LDm\\CLionProjects\\L36P1-QtWidget\\yellowCircle.png");
+    QPixmap *redC = new QPixmap("..\\redCircle.png");
+    QPixmap *greenC = new QPixmap("..\\greenCircle.png");
+    QPixmap *yellowC = new QPixmap("..\\yellowCircle.png");
     QPixmap *currImg = greenC;
     Q_OBJECT
 public:
